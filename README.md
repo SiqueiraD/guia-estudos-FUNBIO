@@ -24,7 +24,7 @@ Retorne a solicitação para o status *Em elaboração* modificando o `IdSolicit
 
 ## Scripts de Ajuda:
 ```sql
--- BUSCAR POR COLUNAS EM TABELAS
+-- BUSCAR POR COLUNAS EM TABELAS (troque o texto entre %)
 SELECT
     tab.name AS 'TableName',
     col.*
@@ -33,7 +33,7 @@ FROM
 JOIN
     sys.tables  tab  ON col.object_id = tab.object_id
 WHERE
-    col.name LIKE '%Prog_IdPrograma%'
+    col.name LIKE '%Prog_IdPrograma%' -- <= AQUI
 ORDER BY
     TableName
 ```
