@@ -20,7 +20,9 @@ Retorne a solicitação para o status *Em elaboração* modificando o `IdSolicit
 
     Esse não é o procedimento padrão, normalmente mantemos os históricos de alterações e inserimos mais um para identificar que o fluxo foi alterado.
 
-## 5 -
+## 5 - Encontre a relação do insumo com o subprojeto
+Encontre a relação do insumo com o subprojeto, esse relacionamento passa por duas tabelas. Lembre se que o insumo é cadastrado dentro de um POA no subprojeto.  
+
 
 ## Scripts de Ajuda:
 ```sql
